@@ -1,0 +1,66 @@
+body, ul, li, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+.logo{
+    width: 9%;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header{
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+    background-color: blue;
+}
+
+.flex{
+    min-height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem{
+    width: auto;
+    height: 400px;
+}
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.paragrafo{
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-size: 23px;
+}
